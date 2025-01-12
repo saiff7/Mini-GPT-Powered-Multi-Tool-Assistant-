@@ -140,7 +140,7 @@ def format_system_prompt(tools):
 def get_weather(location, unit="celsius"):
     """Fetch current weather data for a given location."""
     try:
-        url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={WEATHER_API_KEY}&units=metric"
+        url = f"***"
         response = requests.get(url)
         data = response.json()
         
